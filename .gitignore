@@ -1,0 +1,14 @@
+# ignore everything
+*
+
+# except directories
+!/**/
+
+# and except files with these extensions
+!*.cpp
+!*.h
+!*.md
+
+# and except these files
+!LICENSE
+!Makefile
