@@ -5,6 +5,7 @@
 #include <string>
 #include <vector>
 #include <time.h> // for time(NULL)
+#include <cstdlib> // for rand()
 
 using std::cout;
 using std::endl;
