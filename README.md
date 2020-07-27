@@ -1,4 +1,4 @@
-#dnd combat sim
+# dnd combat sim
 ### by Lois Overvoorde and Oliver Gould
 
 ## Prerequisites
