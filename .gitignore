@@ -4,8 +4,10 @@
 # except directories
 !/**/
 
-# and except files with extensions
-!*.*
+# and except files with these extensions
+!*.cpp
+!*.h
+!*.md
 
 # and except these files
 !LICENSE
