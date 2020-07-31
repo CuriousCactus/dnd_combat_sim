@@ -1,4 +1,4 @@
-all: combat main
+all: combat dndcs
 
 combat: combat.cpp
 	g++ -Wall combat.cpp -o combat

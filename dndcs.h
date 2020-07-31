@@ -24,15 +24,15 @@ public:
     // initialization
     Creature();
     Creature(const Creature&);
-	Creature(string name, int hp_max, int ac, int attack_bonus,
+    Creature(string name, int hp_max, int ac, int attack_bonus,
              int damge_dice_number, int damage_dice_faces,
              int damage_bonus, int initiative_bonus);
 
     // destruction
-	~Creature();
+    ~Creature();
 
     // copying
-	Creature& operator=(const Creature&);
+    Creature& operator=(const Creature&);
 
     // combat
     bool alive() const;
@@ -41,8 +41,8 @@ public:
     void attack(Creature& target);
 
     // stream <<
-	friend ostream& operator<< (ostream&,const Creature&);
-	friend istream& operator>> (istream&, Creature&);
+    friend ostream& operator<< (ostream&,const Creature&);
+    friend istream& operator>> (istream&, Creature&);
 
     // name stuff
     string get_name() const;
@@ -50,7 +50,7 @@ public:
 
 private:
     string name;
-	int hp_max;
+    int hp_max;
     int hp;
     int ac;
     int attack_bonus;

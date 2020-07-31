@@ -100,7 +100,7 @@ void Creature::rename(const string new_name) {
 // stream <<
 ostream& operator<< (ostream& os,const Creature& cr) {
     os << std::left;
-	os << "Name              : " << cr.name << endl;
+    os << "Name              : " << cr.name << endl;
     os << "HP max            : " << cr.hp_max << endl;
     os << "HP                : " << cr.hp << endl;
     os << "AC                : " << cr.ac << endl;
